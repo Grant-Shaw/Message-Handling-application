@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<XMLMessageList>
+
+	<Message>
+		<Header>E1234567701</Header>
+		<Body>grantshaw@hotmail.co.uk SIR 02/12/92 Sports centre Code: 22-999-999 Nature of Incident: Staff Attack This is the message </Body>
+	</Message>
+
+	<Message>
+		<Header>T1234567702</Header>
+		<Body>THIS IS A BIG WTF OF a TWITTER MESSAGE</Body>
+	</Message>
+
+	<Message>
+		<Header>S1234567891</Header>
+		<Body>THIS IS A BIG BLOCK OF a text message</Body>
+	</Message>
+
+
+</XMLMessageList>

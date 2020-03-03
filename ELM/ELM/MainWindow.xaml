@@ -1,0 +1,22 @@
+﻿<Window x:Class="ELM.MainWindow"      
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ELM"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFC5FAFF">
+        <Label Content="Message Header" HorizontalAlignment="Left" Height="32" Margin="10,0,0,0" VerticalAlignment="Top" Width="131" FontWeight="Bold" FontSize="16" FontFamily="Archivo Narrow"/>
+        <Label HorizontalAlignment="Left" Height="33" Margin="12,75,0,0" VerticalAlignment="Top" Width="347" FontWeight="Bold" FontSize="16" Content="Message Body" FontFamily="Archivo Narrow">
+        </Label>
+        <Button x:Name="nxtMsg" Content="Next  -&gt;" HorizontalAlignment="Left" Height="23" Margin="250,3,0,0" VerticalAlignment="Top" Width="90" FontWeight="Bold" FontSize="14" RenderTransformOrigin="-0.104,0.264" Click="NxtMsg_Click" BorderBrush="#FF190505" Background="#FFC1FFDA"/>
+        <Button x:Name="finishBtn" Content="Finish" HorizontalAlignment="Left" Margin="628,24,0,0" VerticalAlignment="Top" Width="139" Height="41" FontSize="14" FontWeight="Bold" BorderBrush="#FF170101" Background="#FFE9E2FD" Click="FinishBtn_Click"/>
+        <Button x:Name="processBtn" Content="Convert To Json" HorizontalAlignment="Left" Margin="414,24,0,0" VerticalAlignment="Top" Width="135" Height="41" FontWeight="Bold" FontSize="14" BorderBrush="#FF170101" Background="#FFE9E2FD" Click="ProcessBtn_Click"/>
+        <TextBox x:Name="inputBody" HorizontalAlignment="Left" Height="282" Margin="12,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="347"/>
+        <TextBox x:Name="inputHeader" HorizontalAlignment="Left" Height="33" Margin="12,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="347"/>
+        <TextBlock x:Name="outputBody" HorizontalAlignment="Left" Height="282" Margin="414,108,0,0" TextWrapping="Wrap" Text="Output Message" VerticalAlignment="Top" Width="353" FontSize="16" FontFamily="Archivo Narrow" TextAlignment="Center"/>
+        <Button x:Name="prevMsg" Content="&lt;- Previous" HorizontalAlignment="Left" Margin="146,3,0,0" VerticalAlignment="Top" Width="99" RenderTransformOrigin="-2.12,-2.636" Height="23" FontWeight="Bold" FontSize="14" Background="#FFC1FFDA" Click="PrevMsg_Click"/>
+
+    </Grid>
+</Window>
